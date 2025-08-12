@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 1 - Upload Documents</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      padding: 24px;
+      border: 1px solid #bbb; 
+      border-top: 3px solid #ea921d;
+      max-width: 500px;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .icon {
+      width: 28px;
+      height: 28px;
+      border: 2px solid #fbc02d;
+      border-radius: 50%;
+      color: #fbc02d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    h2 strong {
+      font-weight: bold;
+    }
+
+    p {
+      margin: 0;
+      color: #555;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .fee {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #fafafa;
+      padding: 6px 10px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .fee span:first-child {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 0;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between; 
+      gap: 10px;
+    }
+
+    .back {
+      background: white;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 8px 20px;
+      cursor: pointer;
+    }
+
+    .cont {
+      background: #ce435b;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 8px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="icon">!</div>
+    <div>
+      <h2><strong>Upload</strong> Other Documents</h2>
+      <p>
+        To upload more documents to the current request, please initiate a new service request.
+        <br><br>
+        Do you want to start a new service request to upload more documents?
+      </p>
+    </div>
+    <div class="fee">
+      <span>ⓘ A service fee of 520 will apply.</span>
+      <span>✕</span>
+    </div>
+    <hr>
+    <div class="buttons">
+      <button class="back">BACK</button>
+      <button class="cont">CONTINUE</button>
+    </div>
+  </div>
+</body>
+</html>
