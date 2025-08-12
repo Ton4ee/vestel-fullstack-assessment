@@ -34,7 +34,7 @@ Vestel-Fullstack-Tasks/
 
 ## 📝 Task 1 – Frontend Component
 
-**Objective (from PDF):**  
+**Objective :**  
 > Build a UI component based on the attached image using HTML, CSS, and JavaScript only if needed. Focus on matching the visual appearance.
 
 **My approach:**
